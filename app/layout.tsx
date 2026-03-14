@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${spaceGrotesk.className} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
