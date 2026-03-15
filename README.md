@@ -37,7 +37,3 @@ This portfolio focuses on **smooth motion design, performance, and accessibility
 - **Tailwind CSS**
 - **Framer Motion**
 - **Vite**
-
----
-
-## 📂 Project Structure
