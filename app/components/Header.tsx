@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
         {/* Mobile Menu */}
-        <nav className=''>
+        <nav className='w-full sticky top-0 left-0 z-50 pb-1 pt-2 border-b border-gray-100 bg-white/60 backdrop-blur-2xl'>
             <Link href={"/"}>
             <Image
             src="/images/logo-icon.svg"
